@@ -26,7 +26,15 @@ class ViewController: UIViewController {
 
     @IBAction func convertAgeButton(sender: UIButton) {
         dogAge.hidden = false
-        let convertedAge = (ageTextField.text.toInt()! * 7)
+        var ageInput = ageTextField.text.toInt()!
+        var convertedAge:Int
+
+        if ageInput > 2 {
+            convertedAge = (ageInput * 4)
+        } else {
+            convertedAge = (ageInput * 7)
+        }
+
         dogAge.text = "Mr Pug is a grand total of \(convertedAge) years old"
         ageTextField.resignFirstResponder()
     }
