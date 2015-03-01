@@ -13,6 +13,8 @@
 		2034D7651AA393AB0012E143 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2034D7641AA393AB0012E143 /* Images.xcassets */; };
 		2034D7681AA393AB0012E143 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2034D7661AA393AB0012E143 /* LaunchScreen.xib */; };
 		2034D7741AA393AB0012E143 /* DogAgeConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034D7731AA393AB0012E143 /* DogAgeConverterTests.swift */; };
+		2034D77E1AA395000012E143 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2034D77D1AA394FF0012E143 /* dog.jpg */; };
+		2034D7801AA3963F0012E143 /* dog1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2034D77F1AA3963F0012E143 /* dog1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2034D76D1AA393AB0012E143 /* DogAgeConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogAgeConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2034D7721AA393AB0012E143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2034D7731AA393AB0012E143 /* DogAgeConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAgeConverterTests.swift; sourceTree = "<group>"; };
+		2034D77D1AA394FF0012E143 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		2034D77F1AA3963F0012E143 /* dog1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		2034D75A1AA393AB0012E143 /* DogAgeConverter */ = {
 			isa = PBXGroup;
 			children = (
+				2034D77F1AA3963F0012E143 /* dog1.jpg */,
+				2034D77D1AA394FF0012E143 /* dog.jpg */,
 				2034D75D1AA393AB0012E143 /* AppDelegate.swift */,
 				2034D75F1AA393AB0012E143 /* ViewController.swift */,
 				2034D7611AA393AB0012E143 /* Main.storyboard */,
@@ -192,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2034D77E1AA395000012E143 /* dog.jpg in Resources */,
+				2034D7801AA3963F0012E143 /* dog1.jpg in Resources */,
 				2034D7631AA393AB0012E143 /* Main.storyboard in Resources */,
 				2034D7681AA393AB0012E143 /* LaunchScreen.xib in Resources */,
 				2034D7651AA393AB0012E143 /* Images.xcassets in Resources */,
